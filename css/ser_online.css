@@ -1,0 +1,132 @@
+body {
+    background-color: #eedeb4
+}
+.w {
+    width: 800px;
+    height: 640px;
+    position: relative;
+    margin: 50px auto;
+    /* overflow: hidden; */
+}
+/* 标题 */
+.ser_online_box {
+    width: 800px;
+    height: 600px;
+    border: 1px solid;
+    background-color: #f1f1f1;
+}
+.content {
+    padding: 10px;
+}
+.content_title {
+    width: 100%;
+    height: 60px;
+    /* border-bottom: 1px solid gray; */
+}
+.logo {
+    float: left;
+}
+.logo img {
+    width: 95px;
+    height: 57px;
+    left: 0;
+    top: 0;
+}
+.title h1 {
+    line-height: 60px;
+    height: 100%;
+    text-align: center;
+    color: orange;
+    transform: translateX(-50px);
+    bottom: 0;
+}
+/* 聊天区域 */
+.chat_area {
+    width: 100%;
+    height: 500px;
+    border: 1px solid;
+    padding: 10px;
+}
+.chat_area_content {
+    height: 300px;
+    border-bottom: 1px solid gray;
+}
+.chat_service {
+    width: 100%;
+    height: 50px;
+}
+.chat_service>div {
+    float: left;
+    width: 300px;
+}
+.chat_service_left {
+    float: left;
+    width: 50px;
+    height: 50px;
+    background-image: url(../images/head_portrait.png);
+    z-index: 100;
+    margin-right: 10px;
+}
+.chat_service_right {
+    height: 30px;
+    width: 160px;
+    font-size: 16px;
+    color: #fff;
+    background-color: rgb(15, 228, 15);
+    border-radius: 15px;
+}
+.guest {
+    float: right;
+}
+.guest>div {
+    float: right;
+    width: 300px;
+}
+.guest_right {
+    float: right;
+    width: 50px;
+    height: 50px;
+    background-image: url(../images/head_portrait.png);
+    z-index: 100;
+    margin-left: 10px;
+}
+.guest_left {
+    height: 30px;
+    width: 160px;
+    font-size: 16px;
+    line-height: 50px;
+    color: #fff;
+    background-color: rgb(15, 228, 15);
+    border-radius: 15px;
+}
+.chat_area_send textarea {
+    font-size: 16px;
+    line-height: 16px;
+    margin-top: 10px;
+    height: 100px;
+    width: 750px;
+    resize: none;
+    border-style: none;
+    /* 去除点击后的外边框 */
+    outline-style: none;
+}
+.chat_area_send button {
+    font-size: 18px;
+    float: right;
+    width: 60px;
+    height: 40px;
+    margin-right: 20px;
+    margin-top: 20px;
+    background-color: rgb(41, 218, 22);
+    color: #fff;
+    border-radius: 15px;
+}
+/* 版权 */
+.copyright {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    font-size: 12px;
+    left: 0;
+    bottom: 0;
+}
