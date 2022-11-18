@@ -1,5 +1,5 @@
 /* nav模块中 该页面的导航项 背景颜色改变 */
-.nav ul li:nth-child(5) {
+.nav ul li:nth-child(5){
     background-color: #ecb11b;
 }
 .nav ul li:nth-child(5) >a {
